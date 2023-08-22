@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    height: 400px;
+    display: inline-flex;
+}
+
+kbd{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid slategray;
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    line-height: 700px;
+}
