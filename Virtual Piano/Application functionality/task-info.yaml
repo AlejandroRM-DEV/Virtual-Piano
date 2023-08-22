@@ -1,0 +1,28 @@
+type: edu
+files:
+- name: src/index.html
+  visible: true
+  text: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Virtual Piano</title>
+    </head>
+    <body>
+        <kbd>A</kbd>
+        <kbd>S</kbd>
+        <kbd>D</kbd>
+        <kbd>F</kbd>
+        <kbd>G</kbd>
+        <kbd>H</kbd>
+        <kbd>J</kbd>
+    </body>
+    </html>
+  learner_created: false
+- name: hstest/test.js
+  visible: false
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/101/stages/558/implement#comment
+status: Unchecked
+record: -1
