@@ -1,14 +1,14 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: '!==='
-- text: ===
-- text: '!=='
-- text: '!='
+  - text: '!==='
+  - text: ===
+  - text: '!=='
+  - text: '!='
 files:
-- name: main.js
-  visible: true
-  learner_created: false
+  - name: main.js
+    visible: true
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8582#comment
 status: Solved
 record: -1

@@ -1,60 +1,60 @@
 type: edu
 files:
-- name: src/index.html
-  visible: true
-  text: |
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Virtual Piano</title>
-    </head>
-    <body>
-        <kbd>A</kbd>
-        <kbd>S</kbd>
-        <kbd>D</kbd>
-        <kbd>F</kbd>
-        <kbd>G</kbd>
-        <kbd>H</kbd>
-        <kbd>J</kbd>
-    </body>
-    </html>
-  learner_created: false
-- name: hstest/test.js
-  visible: false
-  learner_created: false
-- name: src/style.css
-  visible: true
-  text: |-
-    body{
-        background-color: lightblue;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-
-    .container{
-        margin: auto;
-        height: 400px;
-        display: inline-flex;
-    }
-
-    kbd{
-        margin: 0;
-        padding: 0;
-        display: inline-block;
-        background-color: white;
-        border: 2px solid slategray;
-        width: 70px;
-        height: 100%;
-        text-align: center;
-        line-height: 700px;
-    }
-  learner_created: true
-- name: src/script.js
-  visible: true
-  learner_created: true
+  - name: src/index.html
+    visible: true
+    text: |
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <meta charset="utf-8">
+          <title>Virtual Piano</title>
+      </head>
+      <body>
+          <kbd>A</kbd>
+          <kbd>S</kbd>
+          <kbd>D</kbd>
+          <kbd>F</kbd>
+          <kbd>G</kbd>
+          <kbd>H</kbd>
+          <kbd>J</kbd>
+      </body>
+      </html>
+    learner_created: false
+  - name: hstest/test.js
+    visible: false
+    learner_created: false
+  - name: src/style.css
+    visible: true
+    text: |-
+      body{
+          background-color: lightblue;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          margin: 0;
+      }
+      
+      .container{
+          margin: auto;
+          height: 400px;
+          display: inline-flex;
+      }
+      
+      kbd{
+          margin: 0;
+          padding: 0;
+          display: inline-block;
+          background-color: white;
+          border: 2px solid slategray;
+          width: 70px;
+          height: 100%;
+          text-align: center;
+          line-height: 700px;
+      }
+    learner_created: true
+  - name: src/script.js
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/9024#comment
 status: Solved
 feedback:

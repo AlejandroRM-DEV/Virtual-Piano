@@ -1,9 +1,9 @@
 type: code
 files:
-- name: main.js
-  visible: true
-  highlight_level: NONE
-  learner_created: false
+  - name: main.js
+    visible: true
+    highlight_level: NONE
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8593#comment
 status: Solved
 feedback:

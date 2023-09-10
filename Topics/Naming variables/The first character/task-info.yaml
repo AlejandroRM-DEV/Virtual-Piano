@@ -1,14 +1,14 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: lowercase letters
-- text: underscores
-- text: uppercase letters
-- text: digits
+  - text: lowercase letters
+  - text: underscores
+  - text: uppercase letters
+  - text: digits
 files:
-- name: main.js
-  visible: true
-  learner_created: false
+  - name: main.js
+    visible: true
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8366#comment
 status: Solved
 record: -1
